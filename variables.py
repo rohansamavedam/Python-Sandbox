@@ -16,23 +16,22 @@ VARIABLE RULES:
 
 # x = 1             # int
 # y = 2.5           # float
-# name = 'Rohan'    # strings
+# name = 'Brad'     # string
 # is_cool = True    # bool
 
-# Multiple Assignments
-x, y, name, is_cool = (1, 2.5, 'Rohan', True)
+# Multiple assigment
+x, y, name, is_cool = (1, 2.5, 'Brad', True)
 
-# Print
 print(x, y, name, is_cool)
 
-# Basic Math
+# Basic math
 a = x + y
 
 # Casting
 x = str(x)
 y = int(y)
+z = float(y)
 
-# Check Type
-print(type(x))
-print(type(y))
-print(y)
+# Check type
+print(type(z))
+print(z)
